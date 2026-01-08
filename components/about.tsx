@@ -9,10 +9,7 @@ export default function About() {
           </div>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            With years of expertise in the scientific and renewable energy sectors, Plant Tech Trade has become a
-            trusted partner for laboratories and research institutions. We specialize in sourcing and supplying
-            high-quality certified equipment, backed by professional installation support and comprehensive after-sales
-            service.
+          With years of expertise in the scientific and renewable energy sectors since 2012, Plant Tech Trade has become a trusted partner for laboratories and research institutions. We specialize in sourcing and supplying high-quality certified equipment, backed by professional installation support and comprehensive after-sales service.
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed">

@@ -52,9 +52,9 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-foreground mb-4">Contact</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Phone: +1 (555) 123-4567</li>
-              <li>Email: info@planttecktrade.com</li>
-              <li>Location: Scientific Hub, Tech City</li>
+              <li>Phone: <a href="tel:+923474536461" className="text-muted-foreground hover:underline">+923474536461</a></li>
+              <li>Email: <a href="mailto:info@planttecktrade.com" className="text-muted-foreground hover:underline">info@planttecktrade.com</a></li>
+              <li>Location: Lahore, Pakistan</li>
             </ul>
           </div>
         </div>

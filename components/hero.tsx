@@ -35,7 +35,7 @@ export default function Hero() {
           {/* Right Visual */}
           <div className="hidden md:block">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-accent/10 to-secondary/10 rounded-3xl blur-3xl"></div>
+              <div className="absolute inset-0 bg-linear-to-br from-primary/10 via-accent/10 to-secondary/10 rounded-3xl blur-3xl"></div>
               <div className="relative bg-white rounded-3xl p-8 shadow-lg border border-primary/10">
                 <img
                   src="/professional-laboratory-equipment-setup-with-micro.jpg"
