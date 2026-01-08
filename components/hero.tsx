@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-b from-muted to-background py-16 sm:py-24 lg:py-32">
+    <section className="bg-linear-to-b from-muted to-background py-16 sm:py-24 lg:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
@@ -34,12 +34,14 @@ export default function Hero() {
 
           {/* Right Visual */}
           <div className="hidden md:block">
-            <div className="bg-secondary/10 rounded-lg p-8 border border-secondary/20">
-              <div className="aspect-square bg-gradient-to-br from-secondary/20 to-accent/20 rounded-lg flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">🔬</div>
-                  <p className="text-muted-foreground">Scientific Excellence</p>
-                </div>
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-accent/10 to-secondary/10 rounded-3xl blur-3xl"></div>
+              <div className="relative bg-white rounded-3xl p-8 shadow-lg border border-primary/10">
+                <img
+                  src="/professional-laboratory-equipment-setup-with-micro.jpg"
+                  alt="Laboratory Equipment Setup"
+                  className="w-full h-auto rounded-2xl object-cover"
+                />
               </div>
             </div>
           </div>

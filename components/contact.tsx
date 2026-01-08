@@ -38,14 +38,14 @@ export default function Contact() {
           {/* Contact Info */}
           <div className="space-y-6">
             <div className="flex gap-4">
-              <div className="flex-shrink-0">
+              <div className="shrink-0">
                 <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
               </div>
               <div>
                 <h3 className="font-semibold text-foreground">Phone</h3>
-                <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                <a href="tel:+923474536461" className="text-muted-foreground hover:underline">+923474536461</a>
               </div>
             </div>
 
@@ -57,7 +57,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground">Email</h3>
-                <p className="text-muted-foreground">info@planttecktrade.com</p>
+                <a href="mailto:info@planttecktrade.com" className="text-muted-foreground hover:underline">info@planttecktrade.com</a>
               </div>
             </div>
 
@@ -69,7 +69,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground">Location</h3>
-                <p className="text-muted-foreground">Scientific Hub, Tech City</p>
+                <p className="text-muted-foreground">Lahore, Pakistan</p>
               </div>
             </div>
           </div>
